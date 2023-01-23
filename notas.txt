@@ -1,0 +1,8 @@
+mbappe:7
+neymar:10.4
+messi:3
+ronaldo:8
+kroos:6
+dembele:6
+modric:5
+pedri:10

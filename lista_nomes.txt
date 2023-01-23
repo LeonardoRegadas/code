@@ -1,0 +1,26 @@
+pegar lista de nomes e montar um apelido para o nome utilizando
+3 consoantes do mesmo
+
+Edson
+Claudio
+Leticia
+Diego
+Dalila
+Caio
+Eliza
+Neto
+JoÃ£o
+Mariana
+Erick
+Lucas
+Moura
+Silva
+Anderson
+Tomaz
+Pedro
+Luiza
+Victo
+Alana
+Salgado
+Luiz
+Pereira
