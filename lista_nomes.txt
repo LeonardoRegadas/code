@@ -1,6 +1,3 @@
-pegar lista de nomes e montar um apelido para o nome utilizando
-3 consoantes do mesmo
-
 Edson
 Claudio
 Leticia

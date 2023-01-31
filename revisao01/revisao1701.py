@@ -1,14 +1,14 @@
-import os
-# try:
-#     arq = open("valida.txt", "w", encoding="utf8")
-#     arq.write("Não e um teste de escrita")
-# finally:
-#     arq.close()
+# import os
+# # try:
+# #     arq = open("valida.txt", "w", encoding="utf8")
+# #     arq.write("Não e um teste de escrita")
+# # finally:
+# #     arq.close()
 
 
-# with open("valida2.txt", "w", encoding="utf8") as meu_arquivo:
-#     meu_arquivo.write("Novo teste de Não é o python")
-#-----------------------------------------------------------
+# # with open("valida2.txt", "w", encoding="utf8") as meu_arquivo:
+# #     meu_arquivo.write("Novo teste de Não é o python")
+# #-----------------------------------------------------------
 
 # pessoas = ["João", "Maria", "Pedro"]
 
@@ -24,12 +24,12 @@ import os
 # with open(f"carta_{pessoa}.txt", "r", encoding="utf-8") as arquivo:
 #     print(arquivo.read())
 
-# -------------------------------------------------------
+# # -------------------------------------------------------
 
-# os.remove("valida.txt") - remove o arquivo
-# os.rename("valida2.txt", "alterado.txt") - renomeia o arq
+# # os.remove("valida.txt") - remove o arquivo
+# # os.rename("valida2.txt", "alterado.txt") - renomeia o arq
 
 # lista = os.listdir() - mostra arqs/pastas no diretorio
 # print(len(lista)) faz parte do listdir
 # print('='*20)
-# print(lista[10]) - mostra a atvd pelo index
+# # print(lista[10]) - mostra a atvd pelo index
