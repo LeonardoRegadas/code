@@ -1,8 +1,9 @@
 # numero = [int(input("informe um numero: "))]
 # numero_par = list(filter(lambda x: x%2 == 0,numero))
 # print(numero_par)
+
 # filter:
-# filter e para validacao
+# filter é para validacao
 # para verificar se for impar tem que ser 1 na igualdade
 # ele so adiciona o numero na lista se ele for par
 
@@ -31,7 +32,6 @@
 # lista_compras_com_imposto = list(map(lambda produto: {"Descrição": produto["Descrição"], "Preço": produto["Preço"] * 1.10}, lista_compras))
 # for item in lista_compras_com_imposto:
 #     print(f'- { item["Descrição"]}, Preço: {item["Preço"]:.2f}')
-
 
 # lista_numeros = []
 # for c in range(5):

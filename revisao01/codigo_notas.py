@@ -4,7 +4,7 @@
 
 ## esta função foi criada para ser utilizada com o parametro KEY do SORTED. pois o parametro KEY só aceita ITERAVEIS
 def segundo_item(item):
-    return item[1]
+    return item[1] #0
 ## essas duas listas foram criadas para complementar a ordenação
 nova_lista = []
 altera_tipo = []
@@ -22,3 +22,4 @@ with open("notas.txt", "r", encoding="utf8") as notas:
         nova_lista.append(altera_tipo)
 ## mostra as notas ordenadas utilizando uma função no KEY e REVERSE True
     print(sorted(nova_lista, key=segundo_item, reverse=True))
+    #False

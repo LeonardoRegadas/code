@@ -32,4 +32,4 @@
 # lista = os.listdir() - mostra arqs/pastas no diretorio
 # print(len(lista)) faz parte do listdir
 # print('='*20)
-# # print(lista[10]) - mostra a atvd pelo index
+# print(lista[10]) - mostra a atvd pelo index

@@ -6,16 +6,16 @@ import re
 lista_fixo = []
 lista_celular = []
 
-with open("contatos.txt", "r") as contatos:
-    linhas = contatos.read()
+# with open("contatos.txt", "r") as contatos:
+#     linhas = contatos.read()
 
-with open("arquivo_modificado", "w") as arquivo2:
-    validacao = re.findall(r'(?\d{2})?\s?\d{4,5}[-.]?\d{4}', contatos)
-    for numero in validacao:
-        if re.search(r'-', numero):
-            arquivo2.write(f'{numero} - FIXO')
-        else:
-            arquivo2.write(f'{numero} - CELULAR')
+# with open("arquivo_modificado", "w") as arquivo2:
+#     validacao = re.findall(r'(?\d{2})?\s?\d{4,5}[-.]?\d{4}', contatos)
+#     for numero in validacao:
+#         if re.search(r'-', numero):
+#             arquivo2.write(f'{numero} - FIXO')
+#         else:
+#             arquivo2.write(f'{numero} - CELULAR')
 
 # import re
 
@@ -39,3 +39,11 @@ with open("arquivo_modificado", "w") as arquivo2:
 #                 arquivo_saida.write(f'{chave}: {valor} ({tipo})\n')
 
 
+import re
+with open('contatos.txt', 'r', encoding="utf8") as contatos:
+    ler = contatos.readlines()
+    padrao = re.compile()
+    for i in ler:
+        if padrao.search(i):
+            i = i.replace('\n', '')
+            print(f'{i}valido')
